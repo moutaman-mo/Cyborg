@@ -1,0 +1,6 @@
+.main-container{
+    padding: var(--padding-primary);
+    background-color: #27292a;
+    border-radius: var(--border-radius-primary);
+    /* background-color: red; */
+}

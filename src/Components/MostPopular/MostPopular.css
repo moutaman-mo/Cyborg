@@ -1,0 +1,16 @@
+body{
+    background-color: #272727;
+    background-color: black;
+}
+.section-wrapper{
+    color: white;
+    background-color: #1f2122;
+    border-radius:  var(--border-radius-primary);
+    margin-top: var(--margin-primary);
+    padding:var(--padding-primary ) ;
+}
+.most-popular-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -1,0 +1,48 @@
+
+.hero-main {
+    background-image: url(../src/assets/images/banner-bg.jpg);
+    background-size: cover;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: calc(var(--padding-primary) / 2);
+    border-radius: var(--border-radius-primary);
+    height: 400px;
+}
+
+.container em {
+    color: var(--color-primary);
+}
+
+.text-main {
+    margin: calc(var(--margin-primary) / 2);
+    max-width: 500px;
+}
+
+.text-main .hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.text-main .hero-title {
+    /* margin: 30px; */
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.bottom-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CA3E7F;
+    width: 200px;
+    height: 70px;
+    border-radius: var(--border-radius-primary);
+    margin-top: calc(var(--margin-primary) / 2);
+}
+
+.bottom-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
