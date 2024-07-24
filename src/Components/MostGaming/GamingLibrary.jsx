@@ -5,7 +5,7 @@ const = () => {
   const  cards= YourGamingData.map(card =>{
     return<CardGaming/> 
   })
-  // some changes
+  // some changes2
   return (
     <div>
       <SectionWrapper>
