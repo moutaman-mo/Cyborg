@@ -1,15 +1,21 @@
 import "./App.css";
-import { Header, Container,  Hero  ,MostPopular , Card , MostGaming ,SectionWrapper , Footer} from "./Components/index";
+import { BrowserRouter as Router ,Route ,Routes } from "react-router-dom";
+import { Header, Container,  Card ,SectionWrapper , Footer } from "./Components/index";
+import {Home ,Profile} from "./Pages/index";
 export default function  App(){
   return (
     <div>
-      <Header />
-      <Container>
-       <Hero/>
-        <MostPopular/> 
-        <MostGaming/>
-      </Container>
-      {/* <Footer /> */}
+     <Router>
+        <Header />
+        <Container>
+        <Routes>
+                <Route path="/" element ={<Home/>}/>
+                <Route path="/profile" element ={<Profile/>}/>
+                
+        </Routes>
+        </Container>  
+        {/* <Footer /> */}
+     </Router>
     </div>
   );
 }

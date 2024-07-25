@@ -1,0 +1,18 @@
+.gaming-library-card ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gaming-library-card ul li span{
+color: gray;
+}
+.bottom-main{
+    width: 100px;
+    padding: 30px;
+    margin-top: 0;
+}
+hr{
+    color: var(--color-primary);
+    margin-block: 30px;
+}

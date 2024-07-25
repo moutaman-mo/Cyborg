@@ -17,7 +17,7 @@ export default function Card(props) {
                 <span><span style={{color: "yellow"}}><FaAsterisk /> </span>{props.rate}</span>
               </li>
               <li>
-                <span><span style={{color: "yellow"}}><FaBus/> </span>{props.download}</span>
+                <span><span style={{color: "red"}}><FaBus/> </span>{props.download}</span>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import {Link} from "react-router-dom"
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
 import NavItem, { NavItemDropDown } from "../NavItem/NavItem";
@@ -6,7 +6,7 @@ export default function Header(props) {
   return (
     <div className="navbar navbar-expand-md bg-dark navbar-dark text-white w-100">
       <div className="container">
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           <img src={logo} alt="" />
         </a>
         <button
@@ -20,11 +20,8 @@ export default function Header(props) {
         <div className="collapse navbar-collapse" id="mainmenu">
           <ul className="navbar-nav ms-auto">
             <NavItem>
-              <a href="#hero" className="nav-link">
-                Home
-              </a>
+            <Link to="/" className="nav-link">Home</Link>
             </NavItem>
-
             <NavItem>
               <a href="#features" className="nav-link">
                 Browse
@@ -63,6 +60,9 @@ export default function Header(props) {
                 عربي
               </a>
             </NavItem>
+            <NavItem>
+            <Link to="/profile" className="nav-link">Profile</Link>
+             </NavItem>
           </ul>
         </div>
       </div>
